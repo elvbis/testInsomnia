@@ -1,7 +1,7 @@
 _id: req_d40e17ffafd047c68076070ad5bc47fb
 type: Request
 parentId: fld_898fa69c6e0449c6b0316f9f0306abbd
-modified: 1605898569991
+modified: 1605899052421
 created: 1605897235112
 url: http://172.22.1.155:8080/FXAPI/rest/fx/v1/obtener/usuariofx
 name: getDocument
@@ -12,7 +12,7 @@ body:
   text: |-
     {
         "numberDoc":"96916034",
-        "typeDocument":"001"
+        "typeDocument":"002S"
     }
 parameters: []
 headers:
