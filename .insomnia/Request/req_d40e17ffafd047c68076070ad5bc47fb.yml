@@ -1,0 +1,38 @@
+_id: req_d40e17ffafd047c68076070ad5bc47fb
+type: Request
+parentId: fld_898fa69c6e0449c6b0316f9f0306abbd
+modified: 1605898569991
+created: 1605897235112
+url: http://172.22.1.155:8080/FXAPI/rest/fx/v1/obtener/usuariofx
+name: getDocument
+description: para obtener los datos del cliente
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "numberDoc":"96916034",
+        "typeDocument":"001"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_27ca8cd0dbff4ead9bee991d748e9e06
+  - name: channelCode
+    value: WEB
+    description: ""
+    id: pair_910041200a2b442aa790c33ccfcdfc80
+  - name: authorization
+    value: fdfd
+    description: ""
+    id: pair_7c4d265ce584426e803136829dcdbb05
+authentication: {}
+metaSortKey: -1605897235112
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
